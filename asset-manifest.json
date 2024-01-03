@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SUTT-Task-3/static/css/main.228d30f9.css",
+    "main.js": "/SUTT-Task-3/static/js/main.d8a20bcf.js",
+    "static/js/498.a5b69495.chunk.js": "/SUTT-Task-3/static/js/498.a5b69495.chunk.js",
+    "static/js/703.c1ef1f1d.chunk.js": "/SUTT-Task-3/static/js/703.c1ef1f1d.chunk.js",
+    "static/js/379.2edd45d7.chunk.js": "/SUTT-Task-3/static/js/379.2edd45d7.chunk.js",
+    "static/js/787.24d3b9fc.chunk.js": "/SUTT-Task-3/static/js/787.24d3b9fc.chunk.js",
+    "index.html": "/SUTT-Task-3/index.html",
+    "main.228d30f9.css.map": "/SUTT-Task-3/static/css/main.228d30f9.css.map",
+    "main.d8a20bcf.js.map": "/SUTT-Task-3/static/js/main.d8a20bcf.js.map",
+    "498.a5b69495.chunk.js.map": "/SUTT-Task-3/static/js/498.a5b69495.chunk.js.map",
+    "703.c1ef1f1d.chunk.js.map": "/SUTT-Task-3/static/js/703.c1ef1f1d.chunk.js.map",
+    "379.2edd45d7.chunk.js.map": "/SUTT-Task-3/static/js/379.2edd45d7.chunk.js.map",
+    "787.24d3b9fc.chunk.js.map": "/SUTT-Task-3/static/js/787.24d3b9fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.228d30f9.css",
+    "static/js/main.d8a20bcf.js"
+  ]
+}
