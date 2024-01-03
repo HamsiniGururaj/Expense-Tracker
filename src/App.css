@@ -36,3 +36,513 @@
     transform: rotate(360deg);
   }
 }
+
+body
+{
+    background-color: rgb(238, 245, 255);
+    color:rgb(23, 107, 135)  ;
+    background-image: url(https://img.freepik.com/free-photo/online-payment-security-concept-3d-phone-bill_107791-16722.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704067200&semt=ais);
+    background-size: auto;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+#head
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    border-bottom: 3px solid rgb(23, 107, 135) ;
+    border-radius: 6px;
+}
+#mw
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color:rgb(23, 107, 135) ;
+    font-size: 3rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+#logo
+{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7PzZ6COpze9sK00oNU36BAXdbPxkkGt-I5A&usqp=CAU);
+    background-size: cover;
+}
+#exp
+{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.t1
+{
+    font-size: 1.5rem;
+    color: rgb(23, 107, 135);
+    font-weight: 600;
+}
+.t2
+{
+    font-size: 1.3rem;
+    color: rgb(23, 107, 135);
+}
+#addt
+{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    border: 2px solid rgb(23, 107, 135) ;
+    border-radius: 5px;
+    
+}
+#head2
+{
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 7px;
+    text-align: center;
+}
+#addts
+{
+    height:520px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3px;
+    align-items: left;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+select
+{
+    width: 10%;
+    height: 40px;
+    color:rgb(23, 107, 135) ;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#date
+{
+    height: 40px;
+    width: 10%;
+    color:rgb(23, 107, 135) ;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+input
+{
+    height: 40px;
+    width: 10%;
+    color:rgb(23, 107, 135) ;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1px solid;
+}
+#add
+{
+    width: 8%;
+    height: 40px;
+    align-self: center;
+    background-color:rgb(23, 107, 135) ;
+    color:rgb(238, 245, 255) ;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#budget
+{
+  height: 200px;
+  margin-top: 20px;
+  width: 82.5%;
+  margin-left: 10%;
+  border: 2px solid rgb(23, 107, 135) ;
+  border-radius: 5px;
+}
+#setb
+{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+#setbt
+{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 7px;
+  text-align: center;
+}
+#mb
+{
+  height: 40px;
+  width: 20%;
+}
+#set,#dl,#sort
+{
+  width: 8%;
+    height: 40px;
+    align-self: center;
+    background-color:rgb(23, 107, 135) ;
+    color:rgb(238, 245, 255) ;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#history
+{
+  margin-top: 20px;
+  width: 82.5%;
+  margin-left: 10%;
+  border: 2px solid rgb(23, 107, 135) ;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#t3,#dlt
+{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 7px;
+  text-align: center;
+}
+#t3
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+  column-gap: 50px;
+}
+#sort
+{
+  font-size: 0.8rem;
+  width: 12%;
+}
+#dload
+{
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 82.5%;
+  margin-left: 10%;
+  border: 2px solid rgb(23, 107, 135) ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+li
+{
+  list-style-type: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#add:hover,#set:hover,#dl:hover
+{
+  background-color: rgb(238, 245, 255);
+  color:rgb(23, 107, 135)  ;
+}
+#rem
+{
+    width: 8%;
+    height: 25px;
+    align-self: center;
+    background-color: rgba(255,0,0,0.2);
+    color:rgb(255, 0, 0) ;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#rem:hover
+{
+  background-color: rgb(255, 62, 62);
+  color: white ;
+}
+#dl
+{
+  width: 15%;
+}
+#warn
+{
+  height: 50px;
+  width: 82.5%;
+  margin-left: 10%;
+  border: 2px solid red ;
+  border-radius: 5px;
+  background-color: rgba(255,0,0,0.2);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  align-items: center;
+}
+#remwarn
+{
+  background-color: rgba(255,73,73,1);
+  color: white ;
+  border-radius: 200px;
+  cursor: pointer;
+}
+@media(max-width:1270px)
+{
+  
+  #sort
+  {
+    font-size: 0.7rem;
+  }
+  #rem
+  {
+    font-size: 1rem;
+    width: 12%;
+  }
+}
+@media(max-width:1050px)
+{
+  select,input, #date 
+  {
+    width: 20%;
+  }
+  #dl
+  {
+    width: 20%;
+  }
+}
+@media(max-width:800px)
+{
+  #add,#set,#dl
+  {
+    font-size: 0.8rem;
+  }
+  #rem
+  {
+    font-size: 0.8rem;
+    width: 14%;
+  }
+  #sort
+  {
+    width: 14%;
+  }
+  #warn
+  {
+    font-size: 0.8rem;
+    column-gap: 80px;
+  }
+}
+@media(max-width:650px)
+{
+  #add,#set
+  {
+     width: 15%;
+  }
+  #sort,#rem
+  {
+    width: 20%;
+  }
+  li
+  {
+    font-size: 1rem;
+  }
+  #dl
+  {
+    width: 23%;
+  }
+  #head2,#setbt,#t3,#dlt
+  {
+    font-size: 1.2rem;
+  }
+  #addt
+  {
+    margin-left: 7%;
+  }
+}
+@media(max-width:500px)
+{
+  #mw
+  {
+    font-size: 2rem;
+  }
+  #warn
+  {
+    column-gap: 30px;
+    font-size: 0.6rem;
+  }
+  #remwarn
+  {
+    font-size: 0.6rem;
+  }
+  #addts
+  {
+    font-size: 1rem;
+  }
+  #addt
+  {
+    margin-left: 4%;
+  }
+  select,input, #date ,#mb
+  {
+    width: 30%;
+    height: 30px;
+    font-size: 0.6rem;
+  }
+  #add,#set,#dl,#rem
+  {
+    height: 30px;
+  }
+  #rem,#dl
+  {
+    width: 25%;
+    font-size: 0.6rem;
+  }
+  #sort
+  {
+    width: 30%;
+  }
+  #dload,#history,#budget
+  {
+    margin-left: 7%;
+  }
+  #head2,#setbt,#t3,#dlt
+  {
+    font-size: 1rem;
+  }
+  li
+  {
+    font-size: 0.8rem;
+    padding-right: 10px;
+  }
+  ul 
+  {
+    padding-left: 10px;
+  }
+  #history,#t3
+  {
+    padding:10px;
+  }
+}
+@media(max-width:350px)
+{
+  header 
+  {
+    width: 100%;
+  }
+  #mw
+  {
+    font-size: 1rem;
+  }
+  #logo
+  {
+    width: 50px;
+    height: 50px;
+  }
+  #head
+  {
+    align-items: center;
+  }
+  .t1
+  {
+    font-size: 1rem;
+  }
+  .t2
+  {
+    font-size: 0.9rem;
+  }
+  #warn
+  {
+    column-gap: 5px;
+    font-size: 0.5rem;
+    margin-left: 5%;
+    width: 90%;
+  }
+  #addt
+  {
+    margin-left: 2%;
+  }
+  #addts
+  {
+    font-size: 0.8rem;
+    row-gap: 15px;
+  }
+  select 
+  {
+    width: 40%;
+  }
+  #date
+  {
+    width: 40%;
+  }
+  #add,#set
+  {
+    width: 25%;
+    font-size: 0.6rem;
+  }
+  #budget
+  {
+    width: 95%;
+    margin-left: 2%;
+  }
+  #history
+  {
+    margin-left: 2%;
+    width: 87%;
+  }
+  #t3
+  {
+    column-gap: 10px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  #sort
+  {
+    font-size: 0.4rem;
+    width: 25%;
+  }
+  #dload
+  {
+    row-gap: 30px;
+  }
+  #dl
+  {
+    width: 32%;
+    font-size: 0.5rem;
+    padding: 0px;
+  }
+  li 
+  {
+    font-size: 0.6rem;
+    padding-right: 0px;
+  }
+  ul 
+  {
+    padding-left: 0px;
+  }
+  #rem
+  {
+    font-size: 0.5rem;
+  }
+
+}
